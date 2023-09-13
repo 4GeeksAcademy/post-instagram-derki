@@ -1,0 +1,109 @@
+*{
+   /*border: 1px dashed red;*/
+}
+
+body, html {
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /*box-sizing: border-box;*/
+    background-color: black;
+    margin: 0;
+    margin: auto;
+    width: 600px;
+    /*border: 1px dashed green;*/
+    background-image: url(/instagram/image/depositphotos_26891681-stock-photo-futuristic-abstract-background-with-blue.jpg);
+}
+
+.home{
+    display: flex;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; 
+}
+
+
+.post-header{
+    display: flex;
+    justify-content: space-between;
+    justify-items: auto;
+    background-color: lightblue;
+    margin: 0px;
+    margin: auto;
+}
+
+
+
+.post-icons{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    height: 20px;
+}
+
+
+
+section{
+    margin: 0;
+    margin: auto;
+}
+
+.right{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+}
+
+.left{
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 10px;
+}
+
+.img-chicha{
+    width: 600px;
+}
+
+.post-body{
+    margin-bottom: 10px;
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    padding: 2em;
+    line-height: 14px;
+}
+
+.margin-img{
+   margin: 1px;
+}
+
+.post-img{
+    padding: 0;
+    display: flex;
+}
+
+#hy{
+   display: flex;
+   gap: 1rem;
+}
+
+#hyy{
+    display: flex;
+   margin-top: 10px;
+ }
+
+ .left-icons{
+    margin-top: 5px;
+    margin-left: 5px;
+    display: flex;
+    gap: 1.5rem;
+ }
+
+ .right-icons{
+    margin-top: 5px;
+    display: flex;
+    width: 20px;
+ }
+
+ 
